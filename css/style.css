@@ -16,6 +16,12 @@ body {
     font-family: Roboto;
     src: url(../font/Roboto-Regular.ttf);
 }
+.mt-5, .mts-5 {
+    margin-top: 50px;
+}
+.mt-2 {
+    margin-top: 20px;
+}
 .mainTitle {
     font-size: 32px;
     font-weight: 500;
@@ -43,7 +49,7 @@ nav {
 .bannerLeft  .animated-info {
     display: inline-block;
     vertical-align: top;
-    min-width: 260px;
+    min-width: 320px;
     position: relative;
 }
 .bannerLeft .animated-item {
@@ -134,17 +140,14 @@ nav {
 .my-projectsWrap {
     margin-bottom: 45px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 a.myProjectsItem {
-    width: 31%;
-    margin-right: 3%;
+    width: 48%;
     margin-top: 45px;
+    
 }
-a.myProjectsItem:nth-child(3),
-a.myProjectsItem:nth-child(6),
-a.myProjectsItem:nth-child(9) {
-    margin-right: 0;
-}
+
 
 .myProjects .uk-tab  {
     justify-content: center;
@@ -221,6 +224,12 @@ footer {
     }
   }
   @media screen and (max-width: 960px) {
+    .my-projectsWrap {
+        margin-bottom: 0;
+    }
+    .myProjects {
+        margin-bottom: 50px;
+    }
     #side-menu ul {
         list-style: none;
         padding-left: 0px;
@@ -252,6 +261,18 @@ footer {
     }
   }
   @media screen and (max-width: 640px) {
+    .mts-5 {
+        margin-top: 0;
+    }
+    .mbs-2 {
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    .my-projectsWrap {
+        margin-bottom: 45px;
+    }
     .bannerLeft .mainTitle {
         margin-top: 30px;
         margin-bottom: 30px;
