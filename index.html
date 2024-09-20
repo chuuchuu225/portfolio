@@ -61,7 +61,7 @@
                     <a href=""  uk-toggle="target: #side-menu" class="uk-toggle uk-hidden@m side-menu-toggle">
                         <span uk-icon="icon: menu"></span>
                     </a>
-                    <div id="side-menu" uk-offcanvas="flip: true; overlay: true; mode: slide">
+                    <div id="side-menu" class="uk-offcanvas" uk-offcanvas="flip: true; overlay: true; mode: slide">
                         <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
                             <button class="uk-offcanvas-close" type="button" uk-close></button>
                             <ul>
@@ -111,7 +111,7 @@
                     <span>Hi ! I’m</span> 
                     <div class="animated-info">
                         <span class="animated-item">Chuu</span>
-                        <span class="animated-item">Web Designer</span>
+                        <span class="animated-item">Frontend Developer</span>
                         <span class="animated-item">UI Developer</span>
                         <span class="animated-item">UI/UX Designer</span>
                         
@@ -151,7 +151,7 @@
                 <div class="workExpItem">
                     <div class="workExpCom">Clickr Media Pte. Ltd</div>
                     <div class="workExpDate">Aug 2020 - Sep 2021</div>
-                    <div class="workExpPos">Senior Web Designer</div>
+                    <div class="workExpPos">Senior Frontend Developer</div>
                 </div>
                 <div class="workExpItem">
                     <div class="workExpCom">Berakah Peneil Co., Ltd</div>
@@ -254,261 +254,282 @@
                 My Projects
             </div>
             <div class="">
-                <ul class="uk-tab" uk-tab="connect: #my-projects; animation: uk-animation-fade; duration: 200">
-                    <li  class="uk-active"><a href="">Web Design</a></li>
-                    <li><a href="">Mobile App</a></li>
-                    <li><a href="">Web App</a></li>
-                    <li><a href="">Shots</a></li>
-                </ul>
-                <ul id="my-projects" class="uk-switcher uk-margin">
-                    <li>
-                        <div class="uk-flex my-projectsWrap">
-                            <a href="#Identily" uk-toggle  class="myProjectsItem">
-                                <div>
-                                    <img src="img/Web/identily.png" alt="">
-                                </div>
-                                <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
-                                    <span uk-icon="arrow-right"></span>
-                                </div>
-                            </a>
-                            <a href="#Clickr" uk-toggle class="myProjectsItem">
-                                <div>
-                                    <img src="img/Web/clickr.png" alt="">
-                                </div>
-                                <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
-                                    <span uk-icon="arrow-right"></span>
-                                </div>
-                            </a>
-                            <a href="#Arcc" uk-toggle class="myProjectsItem">
-                                <div>
-                                    <img src="img/Web/arcc.png" alt="">
-                                </div>
-                                <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
-                                    <span uk-icon="arrow-right"></span>
-                                </div>
-                            </a>
-                            <a href="#DBS" uk-toggle class="myProjectsItem">
-                                <div>
-                                    <img src="img/Web/dbs.png" alt="">
-                                </div>
-                                <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
-                                    <span uk-icon="arrow-right"></span>
-                                </div>
-                            </a>
-                            <a href="#GUUD" uk-toggle class="myProjectsItem">
-                                <div>
-                                    <img src="img/Web/guud.png" alt="">
-                                </div>
-                                <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
-                                    <span uk-icon="arrow-right"></span>
-                                </div>
-                            </a>
-                            <a href="#Hakubaku" uk-toggle class="myProjectsItem">
-                                <div>
-                                    <img src="img/Web/haku.png" alt="">
-                                </div>
-                                <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
-                                    <span uk-icon="arrow-right"></span>
-                                </div>
-                            </a>
-                            <a href="https://www.behance.net/gallery/150800347/Redesign-101SBC?log_shim_removal=1" target="_blank" class="myProjectsItem">
-                                <div>
-                                    <img src="img/Web/101.png" alt="">
-                                </div>
-                                <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
-                                    <span uk-icon="arrow-right"></span>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- Modal Box -->
-                        <div id="Identily" uk-modal class="uk-modal-container uk-modal">
-                            <div class="uk-modal-dialog uk-modal-body">
-                                <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/Web/Identily Web.png" alt="">
-                            </div>
-                        </div>
-                        <div id="Clickr" uk-modal class="uk-modal-container uk-modal">
-                            <div class="uk-modal-dialog uk-modal-body">
-                                <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/Web/Clickr Web.png" alt="">
-                            </div>
-                        </div>
-                        <div id="Arcc" uk-modal class="uk-modal-container uk-modal">
-                            <div class="uk-modal-dialog uk-modal-body">
-                                <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/Web/Arcc Web.png" alt="">
-                            </div>
-                        </div>
-                        <div id="DBS" uk-modal class="uk-modal-container uk-modal">
-                            <div class="uk-modal-dialog uk-modal-body">
-                                <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/Web/DBS Web.png" alt="">
-                            </div>
-                        </div>
-                        <div id="GUUD" uk-modal class="uk-modal-container uk-modal">
-                            <div class="uk-modal-dialog uk-modal-body">
-                                <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/Web/GUUD Web.png" alt="">
-                            </div>
-                        </div>
-                        <div id="Hakubaku" uk-modal class="uk-modal-container uk-modal">
-                            <div class="uk-modal-dialog uk-modal-body">
-                                <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/Web/Hakubaku Web.png" alt="">
-                            </div>
-                        </div>
-                        <!-- Modal Box -->
-                    </li>
-                    <li>
+                <div id="my-projects">
+                    
                         <div class="uk-flex my-projectsWrap">
                             <a href="#app1Dialog" uk-toggle  class="myProjectsItem">
                                 <div>
                                     <img src="img/mobileApp/app1.png" alt="">
                                 </div>
                                 <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
+                                    <div>Sneak Peek</div>
                                     <span uk-icon="arrow-right"></span>
                                 </div>
                             </a>
-                            <a href="#app2Dialog"  uk-toggle  class="myProjectsItem">
+
+                            <a href="#app2Dialog" uk-toggle  class="myProjectsItem">
                                 <div>
                                     <img src="img/mobileApp/app2.png" alt="">
                                 </div>
                                 <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
+                                    <div>Sneak Peek</div>
                                     <span uk-icon="arrow-right"></span>
                                 </div>
                             </a>
+
                             
-                            <a href="https://www.behance.net/gallery/136543319/Grocery-App-(UI-Case-Study)" target="_blank" class="myProjectsItem">
+                        </div>
+                        <div class="my-projectsWrap">
+                            
+
+                            <a href="#app3Dialog" uk-toggle  class="myProjectsItem">
                                 <div>
-                                    <img src="img/mobileApp/app4.png" alt="">
+                                    <img src="img/mobileApp/Dashboard.png" alt="">
                                 </div>
                                 <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                    <div>Read More</div>
+                                    <div>Sneak Peek</div>
                                     <span uk-icon="arrow-right"></span>
                                 </div>
                             </a>
+
+                            
                         </div>
-                        <!-- Modal Box -->
+                        <!-- Modal Box App1-->
                         <div id="app1Dialog" uk-modal class="uk-modal-container uk-modal">
                             <div class="uk-modal-dialog uk-modal-body">
                                 <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/mobileApp/QR App.png  " alt="">
-                            </div>
+                                <div class="mt-5">
+                                <h2>Project Overview</h2>
+                                <p>QR is an innovative mobile application developed by Corner TwentySix (Amara Media), an organization dedicated to providing cutting-edge solutions.</p>
+                                <p> 
+                                    Specializing as a powerful QR code scanning tool, QR enables users to effortlessly scan QR codes in diverse locations. By scanning QR codes placed in key locations, users can quickly access local history and nearby recommendations.QR also provides a convenient way to save scanned locations for future reference or share them with others.
+                                </p>
+                                <p>With its user-friendly interface and 
+                                    comprehensive features, QR enhances the experience of discovering and accessing information about places of interest.</p>
+                                </div>
+                                <div  class="mt-5">
+                                    <h2>The Problem</h2>
+                                    <p>When people travel to new places, they often face challenges in finding information about those locations.
+                                    
+                                        This can lead to frustrations when they rely 
+solely on Google searches to discover where to stay, nearby popular attractions, activities, and restaurants. </p>
+                                    <p>These challenges can significantly impact 
+                                        the traveler's experience, potentially dampening their excitement and enjoyment of exploring new destinations.</p>
+                                </div>
+                                <div  class="mt-5">
+                                    <h2>The Solution</h2>
+                                    <p>We have developed an application designed to address all of these challenges and provide a comprehensive solution for users. Our application aims 
+                                        to simplify the process of finding information about new places, offering users a seamless experience to discover accommodations, nearby attractions, 
+                                        activities, and dining options.  </p>
+                                    <p>With our app, users can enhance their travel experience and eliminate the frustrations commonly associated with 
+                                        exploring unfamiliar destinations.</p>
+                                </div>
+                                <div  class="uk-column-1-3@s mt-5">
+                                    <div>
+                                        <h2>My Role</h2>
+                                        <p>UI/UX Designer</p>
+                                    </div>
+                                    <div>
+                                        <h2>Industry</h2>
+                                        <p>Software</p>
+                                    </div>
+                                    <div>
+                                        <h2>Platform</h2>
+                                        <p>iOS App, Android App</p>
+                                    </div>
+                                </div>
+                                <div class="mt-5">
+                                    <h2>My Responsibility</h2>
+                                    <p>As the sole UI/UX Designer for this project, my responsibility was to create a seamless experience for the QR mobile app, ensuring that users can interact with the product happily and effortlessly.</p>
+                                    
+                                </div>
+                                <div class="mt-5">
+                                    <h2 class="uk-text-center">Overview of QR Application Features</h2>
+                                    <div  class="mts-5">
+                                        <div class="uk-column-1-2@s">
+                                           <div class="mbs-2">
+                                            <img src="img/mobileApp/app1/Sign-in.png" class="uk-img mockImg" alt="" >
+                                           </div>
+                                           <div class="mbs-2">
+                                            <img src="img/mobileApp/app1/Home.png" class="uk-img mockImg" alt="" >
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div  class="mts-5">
+                                        <div class="uk-column-1-2@s">
+                                           <div class="mbs-2">
+                                            <img src="img/mobileApp/app1/Scan.png" class="uk-img mockImg" alt="" >
+                                           </div>
+                                           <div class="mbs-2">
+                                            <img src="img/mobileApp/app1/Detail.png" class="uk-img mockImg" alt="" >
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div  class="mts-5 mbs-2">
+                                           <div>
+                                            <img src="img/mobileApp/app1/Overall.png" class="uk-img mockImg" alt="" >
+                                           </div>
+                                    </div>
+                                </div>
+                                <div class="mts-5">
+                                    <p>Hope you enjoyed this one!</p>
+                                </div>
                         </div>
-
+                        <!-- Modal Box App2-->
                         <div id="app2Dialog" uk-modal class="uk-modal-container uk-modal">
                             <div class="uk-modal-dialog uk-modal-body">
                                 <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/mobileApp/dCheck App.png  " alt="">
-                            </div>
+                                <div class="mt-5">
+                                <h2>Project Overview</h2>
+                                <p>BAS Self Service is an innovative attendance application developed by Intercorp Solutions Pte Ltd, an organization dedicated to providing advanced business solutions.</p>
+                                <p> 
+                                    Specializing in attendance management, BAS Self Service enables users to easily check in and check out, apply for and manage leave, as well as submit and manage claims. With a user-friendly interface, the application streamlines attendance processes and improves overall efficiency.</p>
+                                <p>By offering comprehensive features and seamless functionality, BAS Self Service enhances the experience of managing attendance, leave applications, and claims for both employees and administrators.
+
+                                </p>
+                                </div>
+                                <div  class="mt-5">
+                                    <h2>Problem Statement</h2>
+                                    <p>When employees manage their attendance, leaves, and claims, they often face challenges navigating different systems or manually tracking these processes. This can lead to frustrations, as employees may struggle to efficiently check in and out, apply for leave, or submit claims, while administrators face difficulties in managing approvals and tracking attendance data. </p>
+                                    <p>These challenges can significantly impact the overall efficiency of workforce management, potentially leading to decreased productivity and dissatisfaction among both employees and administrators.
+
+                                    </p>
+                                </div>
+                                <div  class="mt-5">
+                                    <h2>The Solution</h2>
+                                    <p>We have developed an application designed to address all of these challenges and provide a comprehensive solution for workforce management.<br> BAS Self Service simplifies the process of checking in and out, applying for and managing leave, and submitting and managing claims.</p>
+                                    <p>With this app, users can efficiently handle attendance and leave-related tasks while administrators gain a seamless tool for managing approvals and tracking data. BAS Self Service eliminates the frustrations commonly associated with manual tracking, offering a streamlined, user-friendly experience for both employees and administrators.
+
+                                    </p>
+                                </div>
+                                <div  class="uk-column-1-3@s mt-5">
+                                    <div>
+                                        <h2>My Role</h2>
+                                        <p>UI/UX Designer</p>
+                                    </div>
+                                    <div>
+                                        <h2>Industry</h2>
+                                        <p>Software</p>
+                                    </div>
+                                    <div>
+                                        <h2>Platform</h2>
+                                        <p>iOS App, Android App</p>
+                                    </div>
+                                </div>
+                                <div class="mt-5">
+                                    <h2>My Responsibility</h2>
+                                    <p>As the sole UI/UX Designer for this project, my responsibility was to create a seamless experience for the BAS Self Service app, ensuring that users can effortlessly navigate the platform to check in, manage their leaves, and submit claims, while administrators can handle approvals and track data efficiently.
+
+                                    </p>
+                                    
+                                </div>
+                                <div class="mt-5">
+                                    <h2 class="uk-text-center">Overview of BAS Self Service Application Features</h2>
+                                    <div  class="mts-5">
+                                        <div class="uk-column-1-2@s">
+                                           <div class="mbs-2">
+                                            <img src="img/mobileApp/app3/Sign-in.png" class="uk-img mockImg" alt="" >
+                                           </div>
+                                           <div class="mbs-2">
+                                            <img src="img/mobileApp/app3/Home.png" class="uk-img mockImg" alt="" >
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div  class="mts-5">
+                                        <div class="uk-column-1-2@s">
+                                           <div class="mbs-2">
+                                            <img src="img/mobileApp/app3/Claim.png" class="uk-img mockImg" alt="" >
+                                           </div>
+                                           <div class="mbs-2">
+                                            <img src="img/mobileApp/app3/Profile.png" class="uk-img mockImg" alt="" >
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                   
+                                </div>
+                                <div class="mts-5">
+                                    <p>Hope you enjoyed this one!</p>
+                                </div>
                         </div>
-                        <!-- Modal Box -->
-                    </li>
-                    <li>
-                        <div class="uk-flex my-projectsWrap">
-                                <a href="#webapp1Dialog" uk-toggle class="myProjectsItem">
+
+                        <!-- Modal Box App3-->
+                        <div id="app3Dialog" uk-modal class="uk-modal-container uk-modal">
+                            <div class="uk-modal-dialog uk-modal-body">
+                                <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
+                                <div class="mt-5">
+                                <h2>Project Overview</h2>
+                                <p><b>identi.ly</b> is a state-of-the-art web application developed by Identily Inc., a leader in secure digital solutions committed to delivering cutting-edge technology.
+
+                                </p>
+                                <p><b>identi.ly</b> app provides a secure, user-friendly platform for encrypted file transfer, utilizing facial recognition (face key) for both encryption and decryption, ensuring maximum security and privacy for its users.</p>
+                                </div>
+                                <div  class="mt-5">
+                                    <h2>Problem Statement</h2>
+                                    <p>When individuals and businesses need to transfer sensitive files, they often face challenges ensuring their data remains secure. Relying on traditional file sharing methods or complex encryption tools can lead to frustration, as they may expose users to potential security risks or require a high level of technical expertise.</p>
+                                    <p>These challenges can negatively impact the user experience, creating concerns about data breaches and complicating the process of sharing important information.</p>
+                                </div>
+                                <div  class="mt-5">
+                                    <h2>The Solution</h2>
+                                    <p>We have developed an application designed to address all of these challenges and provide a comprehensive solution for secure file transfers. <br><b>identi.ly</b> simplifies the process of encrypting and sharing sensitive files, using facial recognition technology (face key) to ensure only authorized users can access the data.</p>
+                                    <p>With <b>identi.ly</b>, individuals and businesses can transfer files confidently, eliminating the frustrations and risks associated with traditional methods and complex encryption tools, while ensuring the highest level of security and privacy.</p>
+                                </div>
+                                <div  class="uk-column-1-3@s mt-5">
                                     <div>
-                                        <img src="img/webApp/app1.png" alt="">
+                                        <h2>My Role</h2>
+                                        <p>UI/UX Designer</p>
                                     </div>
-                                    <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                        <div>Read More</div>
-                                        <span uk-icon="arrow-right"></span>
-                                    </div>
-                                </a>
-                                <a href="#webapp2Dialog" uk-toggle  class="myProjectsItem">
                                     <div>
-                                        <img src="img/webApp/app2.png" alt="">
+                                        <h2>Industry</h2>
+                                        <p>Software</p>
                                     </div>
-                                    <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                        <div>Read More</div>
-                                        <span uk-icon="arrow-right"></span>
+                                    <div>
+                                        <h2>Platform</h2>
+                                        <p>Web</p>
                                     </div>
-                                </a>
+                                </div>
+                                <div class="mt-5">
+                                    <h2>My Responsibility</h2>
+                                    <p>As the sole UI/UX Designer for this project, my responsibility was to create a seamless experience for the Identily web application, ensuring that users can securely transfer their files effortlessly. 
+
+                                    </p>
+                                    <p>My goal was to design an intuitive interface that allows users to interact with the product confidently and without frustration, prioritizing both simplicity and security throughout the process.</p>
+                                    
+                                </div>
+                                <div class="mt-5">
+                                    <h2 class="uk-text-center">Overview of identi.ly  Features</h2>
+                                    <div  class="mts-5">
+                                           <div class="mbs-2">
+                                            <img src="img/mobileApp/app2/Login.png" class="uk-img mockImg" alt="" >
+                                           </div>
+                                    </div>
+                                    <div  class="mts-5">
+                                        <div class="mbs-2">
+                                         <img src="img/mobileApp/app2/Dashboard.png" class="uk-img mockImg" alt="" >
+                                        </div>
+                                 </div>
+                                 <div  class="mts-5">
+                                    <div class="mbs-2">
+                                     <img src="img/mobileApp/app2/License.png" class="uk-img mockImg" alt="" >
+                                    </div>
+                             </div>
+                             <div  class="mts-5">
+                                <div class="mbs-2">
+                                 <img src="img/mobileApp/app2/Enc.png" class="uk-img mockImg" alt="" >
+                                </div>
+                         </div>
+                                </div>
                                 
-                                <a href="https://www.behance.net/gallery/148907923/TutoVids-UIUX-Responsive-Website-Case-Study" target="_blank" class="myProjectsItem">
-                                    <div>
-                                        <img src="img/webApp/app4.png" alt="">
-                                    </div>
-                                    <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                        <div>Read More</div>
-                                        <span uk-icon="arrow-right"></span>
-                                    </div>
-                                </a>
-                                <a href="https://www.behance.net/gallery/148842789/HealthyTaste-UIUX-Case-Study" target="_blank" class="myProjectsItem">
-                                    <div>
-                                        <img src="img/webApp/app5.png" alt="">
-                                    </div>
-                                    <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                        <div>Read More</div>
-                                        <span uk-icon="arrow-right"></span>
-                                    </div>
-                                </a>
                         </div>
-                        <!-- Modal Box -->
-                        <div id="webapp1Dialog" uk-modal class="uk-modal-container uk-modal">
-                            <div class="uk-modal-dialog uk-modal-body">
-                                <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/webApp/identily App.png  " alt="">
-                            </div>
-                        </div>
-                        <div id="webapp2Dialog" uk-modal class="uk-modal-container uk-modal">
-                            <div class="uk-modal-dialog uk-modal-body">
-                                <button class="uk-modal-close-default uk-text-right" type="button" uk-close></button>
-                                <img src="img/webApp/BAS App.png" alt="">
-                            </div>
-                        </div>
-                        <!-- Modal Box -->
-                    </li>
-                    <li>
-                        <div class="uk-flex my-projectsWrap">
-                                <a href="https://dribbble.com/ChuuMyatThweOo" target="_blank" class="myProjectsItem">
-                                    <div>
-                                        <img src="img/Shot/shot1.png" alt="">
-                                    </div>
-                                    <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                        <div>Read More</div>
-                                        <span uk-icon="arrow-right"></span>
-                                    </div>
-                                </a>
-                                <a href="https://www.behance.net/gallery/136570395/Cardio-Workout-Website" target="_blank" class="myProjectsItem">
-                                    <div>
-                                        <img src="img/Shot/shot2.png" alt="">
-                                    </div>
-                                    <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                        <div>Read More</div>
-                                        <span uk-icon="arrow-right"></span>
-                                    </div>
-                                </a>
-                                <a href="https://www.behance.net/gallery/136505477/Web-Design-For-Music" target="_blank" class="myProjectsItem">
-                                    <div>
-                                        <img src="img/Shot/shot3.png" alt="">
-                                    </div>
-                                    <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                        <div>Read More</div>
-                                        <span uk-icon="arrow-right"></span>
-                                    </div>
-                                </a>
-                                <a href="https://www.behance.net/gallery/136505105/Landing-page" target="_blank" class="myProjectsItem">
-                                    <div>
-                                        <img src="img/Shot/shot4.png" alt="">
-                                    </div>
-                                    <div class="uk-flex uk-flex-middle uk-flex-between myProjectsItemTitle">
-                                        <div>Read More</div>
-                                        <span uk-icon="arrow-right"></span>
-                                    </div>
-                                </a>
-                        </div>
-                    </li>
-                </ul>
+                    
+
+                    
+                    
+                   
+                </div>
             </div>
         </div>  
     </section>
@@ -525,21 +546,21 @@
                         ( Pyay, Myanmar )</div>
                 </div>
                 <div class="workExpItem">
-                    <a href="https://www.coursera.org/account/accomplishments/professional-cert/YM5SS69ZNJE6" target="_blank">
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/YM5SS69ZNJE6">
                             <div class="workExpCom">Google UX Design</div>
                             <div class="workExpDate">Jul 25, 2022</div>
                             <div class="workExpPos">Google</div>
                     </a>
                 </div>
                 <div class="workExpItem">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/QHLTSY4CK67E" target="_blank">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/QHLTSY4CK67E">
                         <div class="workExpCom">Introduction to Front-End Development</div>
                         <div class="workExpDate">July 2, 2023</div>
                         <div class="workExpPos">Meta</div>
                     </a>
                 </div>
                 <div class="workExpItem">
-                    <a href="https://www.coursera.org/account/accomplishments/verify/KSGSBPXUQ6RB" target="_blank">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/KSGSBPXUQ6RB">
                         <div class="workExpCom">Programming with JavaScript</div>
                         <div class="workExpDate">July 25, 2023</div>
                         <div class="workExpPos">Meta</div>
@@ -553,9 +574,9 @@
     </section>
     <section id="contact" uk-scrollspy="cls: uk-animation-fade; target: .connect; delay: 500;">
         <div class="uk-container connect">
-            <div class="uk-column-1-2@m">
+            <div class="uk-column-1-2@s">
                 <div class="mainTitle">Let’s Connect</div>
-                <div class="uk-text-right@m">
+                <div class="uk-text-right@s">
                     <a href="https://www.behance.net/chuuchuu4" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="behance"></a>
                     <a href="https://dribbble.com/ChuuMyatThweOo" target="_blank" class="uk-icon-button  uk-margin-small-right" uk-icon="dribbble"></a>
                     <a href="https://www.linkedin.com/in/chuu-myat-thwe-oo-0b0b651a2/" target="_blank" class="uk-icon-button  uk-margin-small-right" uk-icon="linkedin"></a>
@@ -580,4 +601,5 @@
 
 </body>
 </html>
+
 
